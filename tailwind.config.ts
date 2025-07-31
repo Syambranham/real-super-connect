@@ -26,8 +26,13 @@ export default {
 				foreground: 'hsl(var(--foreground))',
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
-					foreground: 'hsl(var(--primary-foreground))'
+					foreground: 'hsl(var(--primary-foreground))',
+					glow: 'hsl(var(--primary-glow))'
 				},
+				'divine-blue': 'hsl(var(--divine-blue))',
+				'golden-light': 'hsl(var(--golden-light))',
+				'sacred-white': 'hsl(var(--sacred-white))',
+				'peaceful-gray': 'hsl(var(--peaceful-gray))',
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary))',
 					foreground: 'hsl(var(--secondary-foreground))'
@@ -84,11 +89,36 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'gentle-float': {
+					'0%, 100%': { transform: 'translateY(0px)' },
+					'50%': { transform: 'translateY(-10px)' }
+				},
+				'fade-in-up': {
+					'0%': { 
+						opacity: '0',
+						transform: 'translateY(30px)'
+					},
+					'100%': {
+						opacity: '1',
+						transform: 'translateY(0)'
+					}
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'gentle-float': 'gentle-float 6s ease-in-out infinite',
+				'fade-in-up': 'fade-in-up 0.8s ease-out'
+			},
+			backgroundImage: {
+				'gradient-divine': 'var(--gradient-divine)',
+				'gradient-light': 'var(--gradient-light)',
+				'gradient-golden': 'var(--gradient-golden)'
+			},
+			boxShadow: {
+				'divine': 'var(--shadow-divine)',
+				'golden': 'var(--shadow-golden)'
 			}
 		}
 	},
