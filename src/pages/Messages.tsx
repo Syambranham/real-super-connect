@@ -9,7 +9,7 @@ const Messages = () => {
   const [messages] = useState([
     {
       id: 1,
-      title: "The Power of Faith",
+      title: "దావీదు వలే జయించుడి || Message in Zoom Conference || Dated : 24 July 2025",
       date: "2024-01-28",
       youtubeUrl: "https://youtu.be/z0OUp22uG5E?si=d82r2722Eyy1m82P", // Replace with your video ID
       thumbnail: "https://i.ytimg.com/an_webp/z0OUp22uG5E/mqdefault_6s.webp?du=3000&sqp=CJOFrsQG&rs=AOn4CLDzph-HFcENWXQalIzjaVytWlii9A", // Replace with your video ID
