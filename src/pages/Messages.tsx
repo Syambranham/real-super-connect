@@ -25,7 +25,7 @@ const Messages = () => {
     },
     {
       id: 3,
-      title: "Walking in Grace",
+      title: "సాధారణమైన వర్తమానములు మా యొద్ద లేవు || Sunday Prayer meeting || Dated : 06 July 2025",
       date: "2024-01-14",
       youtubeUrl: "https://youtu.be/lIQ9TbOGukc?si=QxfgXwXAtw4HI-cY", // Replace with your video ID
       thumbnail: "https://i.ytimg.com/an_webp/lIQ9TbOGukc/mqdefault_6s.webp?du=3000&sqp=CMaarsQG&rs=AOn4CLDdsdSzhoIqshA1uNGmANF5UAKGjQ", // Replace with your video ID
