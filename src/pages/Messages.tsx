@@ -115,7 +115,7 @@ const Messages = () => {
               <Button 
                 variant="golden" 
                 size="lg"
-                onClick={() => window.open('https://youtube.com/@realsuperchurch', '_blank')}
+                onClick={() => window.open('https://www.youtube.com/@TheRealSuperchurchTNarsapuram')}
               >
                 Subscribe to Our Channel
               </Button>
