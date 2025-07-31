@@ -5,30 +5,30 @@ import { Button } from "@/components/ui/button";
 import Header from "@/components/Header";
 
 const Messages = () => {
-  // Sample YouTube video data - replace with actual data
+  // Your church's YouTube video data
   const [messages] = useState([
     {
       id: 1,
       title: "The Power of Faith",
       date: "2024-01-28",
-      youtubeUrl: "https://youtube.com/watch?v=dQw4w9WgXcQ",
-      thumbnail: "https://img.youtube.com/vi/dQw4w9WgXcQ/maxresdefault.jpg",
+      youtubeUrl: "https://youtube.com/watch?v=YOUR_VIDEO_ID_1", // Replace with your video ID
+      thumbnail: "https://img.youtube.com/vi/YOUR_VIDEO_ID_1/maxresdefault.jpg", // Replace with your video ID
       description: "Join us as we explore the transformative power of faith in our daily lives."
     },
     {
       id: 2,
       title: "Love Your Neighbor",
       date: "2024-01-21",
-      youtubeUrl: "https://youtube.com/watch?v=dQw4w9WgXcQ",
-      thumbnail: "https://img.youtube.com/vi/dQw4w9WgXcQ/maxresdefault.jpg",
+      youtubeUrl: "https://youtube.com/watch?v=YOUR_VIDEO_ID_2", // Replace with your video ID
+      thumbnail: "https://img.youtube.com/vi/YOUR_VIDEO_ID_2/maxresdefault.jpg", // Replace with your video ID
       description: "Understanding what it truly means to love our neighbors as ourselves."
     },
     {
       id: 3,
       title: "Walking in Grace",
       date: "2024-01-14",
-      youtubeUrl: "https://youtube.com/watch?v=dQw4w9WgXcQ",
-      thumbnail: "https://img.youtube.com/vi/dQw4w9WgXcQ/maxresdefault.jpg",
+      youtubeUrl: "https://youtube.com/watch?v=YOUR_VIDEO_ID_3", // Replace with your video ID
+      thumbnail: "https://img.youtube.com/vi/YOUR_VIDEO_ID_3/maxresdefault.jpg", // Replace with your video ID
       description: "Discovering how God's grace sustains us through every season of life."
     }
   ]);
