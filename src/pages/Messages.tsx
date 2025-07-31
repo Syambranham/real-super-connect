@@ -11,8 +11,8 @@ const Messages = () => {
       id: 1,
       title: "The Power of Faith",
       date: "2024-01-28",
-      youtubeUrl: "https://youtube.com/watch?v=YOUR_VIDEO_ID_1", // Replace with your video ID
-      thumbnail: "https://img.youtube.com/vi/YOUR_VIDEO_ID_1/maxresdefault.jpg", // Replace with your video ID
+      youtubeUrl: "https://youtu.be/z0OUp22uG5E?si=d82r2722Eyy1m82P", // Replace with your video ID
+      thumbnail: "https://i.ytimg.com/an_webp/z0OUp22uG5E/mqdefault_6s.webp?du=3000&sqp=CJOFrsQG&rs=AOn4CLDzph-HFcENWXQalIzjaVytWlii9A", // Replace with your video ID
       description: "Join us as we explore the transformative power of faith in our daily lives."
     },
     {
