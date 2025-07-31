@@ -19,16 +19,16 @@ const Messages = () => {
       id: 2,
       title: "Love Your Neighbor",
       date: "2024-01-21",
-      youtubeUrl: "https://youtube.com/watch?v=YOUR_VIDEO_ID_2", // Replace with your video ID
-      thumbnail: "https://img.youtube.com/vi/YOUR_VIDEO_ID_2/maxresdefault.jpg", // Replace with your video ID
+      youtubeUrl: "https://youtu.be/W6-rAySRUas?si=oKWGu_o9oQvRsmdw", // Replace with your video ID
+      thumbnail: "https://i.ytimg.com/an_webp/W6-rAySRUas/mqdefault_6s.webp?du=3000&sqp=CMKyrsQG&rs=AOn4CLCjADSVef5KSn7P5alYtXJNmiFUwQ", // Replace with your video ID
       description: "Understanding what it truly means to love our neighbors as ourselves."
     },
     {
       id: 3,
       title: "Walking in Grace",
       date: "2024-01-14",
-      youtubeUrl: "https://youtube.com/watch?v=YOUR_VIDEO_ID_3", // Replace with your video ID
-      thumbnail: "https://img.youtube.com/vi/YOUR_VIDEO_ID_3/maxresdefault.jpg", // Replace with your video ID
+      youtubeUrl: "https://youtu.be/lIQ9TbOGukc?si=QxfgXwXAtw4HI-cY", // Replace with your video ID
+      thumbnail: "https://i.ytimg.com/an_webp/lIQ9TbOGukc/mqdefault_6s.webp?du=3000&sqp=CMaarsQG&rs=AOn4CLDdsdSzhoIqshA1uNGmANF5UAKGjQ", // Replace with your video ID
       description: "Discovering how God's grace sustains us through every season of life."
     }
   ]);
