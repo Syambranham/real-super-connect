@@ -17,7 +17,7 @@ const Messages = () => {
     },
     {
       id: 2,
-      title: "Love Your Neighbor",
+      title: "దేవునికి ఆహారం సిద్ధం చేసిన మానవుడు || సాధారణమైన వర్తమానములు మా యొద్ద లేవు PART - 2 || 13 July 2025",
       date: "2024-01-21",
       youtubeUrl: "https://youtu.be/W6-rAySRUas?si=oKWGu_o9oQvRsmdw", // Replace with your video ID
       thumbnail: "https://i.ytimg.com/an_webp/W6-rAySRUas/mqdefault_6s.webp?du=3000&sqp=CMKyrsQG&rs=AOn4CLCjADSVef5KSn7P5alYtXJNmiFUwQ", // Replace with your video ID
