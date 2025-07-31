@@ -6,10 +6,8 @@ import churchCommunity from "@/assets/church-community.jpg";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { MapPin, Clock, Phone, Mail } from "lucide-react";
-
 const Index = () => {
-  return (
-    <div className="min-h-screen">
+  return <div className="min-h-screen">
       <Header />
       
       {/* Hero Carousel */}
@@ -36,17 +34,11 @@ const Index = () => {
             <div className="group">
               <Card className="overflow-hidden hover:shadow-divine transition-all duration-300">
                 <div className="relative">
-                  <img 
-                    src={churchInterior} 
-                    alt="Church Interior"
-                    className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
-                  />
+                  <img src={churchInterior} alt="Church Interior" className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300" />
                   <div className="absolute inset-0 bg-divine-blue/20 group-hover:bg-divine-blue/10 transition-colors duration-300" />
                 </div>
                 <CardContent className="p-6">
-                  <h3 className="text-xl font-semibold text-divine-blue mb-2">
-                    Our Sanctuary
-                  </h3>
+                  <h3 className="text-xl font-semibold text-divine-blue mb-2">Our church</h3>
                   <p className="text-muted-foreground">
                     A peaceful place for worship, prayer, and spiritual growth where God's presence is felt.
                   </p>
@@ -57,11 +49,7 @@ const Index = () => {
             <div className="group">
               <Card className="overflow-hidden hover:shadow-divine transition-all duration-300">
                 <div className="relative">
-                  <img 
-                    src={churchCommunity} 
-                    alt="Church Community"
-                    className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
-                  />
+                  <img src={churchCommunity} alt="Church Community" className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300" />
                   <div className="absolute inset-0 bg-divine-blue/20 group-hover:bg-divine-blue/10 transition-colors duration-300" />
                 </div>
                 <CardContent className="p-6">
@@ -124,7 +112,7 @@ const Index = () => {
                       <Phone className="w-5 h-5 text-golden-light mt-1" />
                       <div>
                         <p className="font-medium text-divine-blue">Phone</p>
-                        <p className="text-muted-foreground">+91 XXX XXX XXXX</p>
+                        <p className="text-muted-foreground">+91 9393831167</p>
                       </div>
                     </div>
 
@@ -132,7 +120,7 @@ const Index = () => {
                       <Mail className="w-5 h-5 text-golden-light mt-1" />
                       <div>
                         <p className="font-medium text-divine-blue">Email</p>
-                        <p className="text-muted-foreground">info@realsuperchurch.org</p>
+                        <p className="text-muted-foreground">therealsuperchurch@gmail.com</p>
                       </div>
                     </div>
                   </div>
@@ -154,8 +142,6 @@ const Index = () => {
           </Card>
         </div>
       </section>
-    </div>
-  );
+    </div>;
 };
-
 export default Index;
