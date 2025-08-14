@@ -71,11 +71,6 @@ const Messages = () => {
                     {formatDate(message.date)}
                   </div>
                 </div>
-                <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  <div className="bg-sacred-white/90 rounded-full p-4">
-                    <Play className="w-8 h-8 text-divine-blue" />
-                  </div>
-                </div>
               </div>
               
               <CardHeader>
